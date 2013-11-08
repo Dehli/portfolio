@@ -43,7 +43,7 @@
         HTML, and CSS. The elements and results were generated from a database.
     </p>
     
-    <a href="/images/ppg/1.png" class="fbPPG" rel="gallery"><img src="/images/ppg/small.png" /></a>
+    <a href="/images/ppg/1.png" class="fbPPG" rel="gallery"><img src="/images/ppg/small.png" alt="Ad-hoc Engine" /></a>
     <a href="/images/ppg/2.png" class="fbPPG" rel="gallery"></a>
     <a href="/images/ppg/3.png" class="fbPPG" rel="gallery"></a>
     <a href="/images/ppg/4.png" class="fbPPG" rel="gallery"></a>
@@ -100,7 +100,7 @@
         with a team size of two. 
     </p>
     
-    <a href="/images/gangnam/1.png" class="fbGangnam" rel="gallery" title="Oppa Ninja Style"><img src="/images/gangnam/small.png" /></a>
+    <a href="/images/gangnam/1.png" class="fbGangnam" rel="gallery" title="Oppa Ninja Style"><img src="/images/gangnam/small.png" alt="Gangnam Style"/></a>
     <a href="/images/gangnam/2.png" class="fbGangnam" rel="gallery" title="Demonic Duck"></a>
     <a href="/images/gangnam/3.png" class="fbGangnam" rel="gallery" title="Bullets of Doom"></a>
     <a href="/images/gangnam/4.png" class="fbGangnam" rel="gallery" title="Tracking Rockets"></a>

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>CPDehli</title>
+		<title>Christian Dehli</title>
 		
 	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
         <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -35,27 +35,52 @@
                 padding:125px 0;
                 width:900px; 
             }
-            #navBar{
+            #menu{
                 list-style-type:none;
                 background-color: #FFFFFF;
             }
-            #navBar li{
+            #menu li{
                 display:inline;
                 line-height: 30px;
             }
-            #navBar li a{
+            #menu li a{
                 padding: 0em 1em;
                 background-color: #0A1650;
                 color: White;
                 text-decoration: none;
                 float: left;
             }
-            .navItem a{
+            .rightBorder a{
                 border-right: 1px solid #FFFFFF;   
             }
-            #navBar li a:hover{
+            #menu li a:hover{
                 background-color: #369;
             }
+            
+            #menu li a:hover + ul {
+                display: block;
+            }
+            
+            .submenu {
+                 display: none;
+                 padding-top: 31px;
+                 padding-left: 76px;
+                 width: 70px;     
+             }
+             .submenu li {
+                 position: static;
+                 float: left;
+                 display: block;
+             }
+            
+            .submenu li a{           
+                width: 70px;
+            }
+            
+            .submenu:hover {
+                display: block;
+            }
+            
         </style>
         
 	</head>
@@ -64,10 +89,18 @@
 	    <div id="headerContainer">
 	         <div id="header">
         	    <h1 id="myName"><span style="color:#0A1650;">christian</span> <span style="color:#FFFFFF;">dehli</span></h1>
-        	    <ul id="navBar">
-                    <li class="navItem"><a href="index.php">Home</a></li>
-                    <li><a href="projects.php">Projects</a></li>
-                </ul>
+        	    <div id="menu-holder">
+                    <ul id="menu">
+                        <li class="rightBorder"><a href="index.php">Home</a></li>
+                        <li><a href="projects.php">Projects</a>
+                            <ul class="submenu">
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Web</a></li>
+                                <li><a href="#">Capstone</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div> <!-- Header Div-->
 	    </div>
 	    
