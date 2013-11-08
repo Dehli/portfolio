@@ -37,7 +37,6 @@
             }
             #menu{
                 list-style-type:none;
-                background-color: #FFFFFF;
             }
             #menu li{
                 display:inline;
@@ -92,13 +91,14 @@
         	    <div id="menu-holder">
                     <ul id="menu">
                         <li class="rightBorder"><a href="index.php">Home</a></li>
-                        <li><a href="projects.php">Projects</a>
+                        <li class="rightBorder"><a href="projects.php">Projects</a>
                             <ul class="submenu">
-                                <li><a href="#">Games</a></li>
-                                <li><a href="#">Web</a></li>
-                                <li><a href="#">Capstone</a></li>
+                                <li><a href="games.php">Games</a></li>
+                                <li><a href="web.php">Web</a></li>
+                                <li><a href="capstone.php">Capstone</a></li>
                             </ul>
                         </li>
+                        <li><a href="skills.php">Skills</a></li>
                     </ul>
                 </div>
             </div> <!-- Header Div-->
