@@ -1,117 +1,55 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Christian Dehli</title>
-		
-	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-        <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
-        
-        <style type="text/css">
-            * {
-                font-family: Helvetica, sans-serif;
-                margin: 0;
-                padding: 0;
-            }
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio.">
+    <meta name="author" content="Christian Dehli">
 
-            #headerContainer {
-                background: #0f50f6;
-                height: 100px;
-                left: 0;
-                position: fixed;
-                width: 100%;
-                top: 0px;
-            }
+    <title>Christian Dehli</title>
 
-            #header {
-                line-height: 60px;
-                margin: 0 auto;
-                width: 900px;
-                text-align: left;
-                margin-top: 20px;
-            }
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
 
-            #container {
-                margin: 0 auto;
-                overflow: auto;
-                padding: 125px 0;
-                width: 900px;
-            }
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
 
-            #menu {
-                list-style-type: none;
-            }
-
-            #menu li {
-                display: inline;
-                line-height: 30px;
-            }
-
-            #menu li a {
-                padding: 0em 1em;
-                background-color: #0A1650;
-                color: White;
-                text-decoration: none;
-                float: left;
-            }
-
-            .rightBorder a {
-                border-right: 1px solid #FFFFFF;
-            }
-
-            #menu li a:hover {
-                background-color: #369;
-            }
-            
-            #menu li a:hover + ul {
-                display: block;
-            }
-
-            .submenu {
-                display: none;
-                padding-top: 31px;
-                padding-left: 145px;
-                width: 70px;
-            }
-
-            .submenu li {
-                position: static;
-                float: left;
-                display: block;
-            }
-
-            .submenu li a {
-                width: 70px;
-            }
-
-            .submenu:hover {
-                display: block;
-            }
-            
-        </style>
-        
-	</head>
+  </head>
 
 	<body>
-	    <div id="headerContainer">
-	         <div id="header">
-        	    <h1 id="myName"><span style="color:#0A1650;">christian</span> <span style="color:#FFFFFF;">dehli</span></h1>
-        	    <div id="menu-holder">
-                    <ul id="menu">
-                        <li class="rightBorder"><a href="index.php">Home</a></li>
-                        <li class="rightBorder"><a href="skills.php">Skills</a>
-                        <li><a href="#">Projects</a>
-                            <ul class="submenu">
-                                <li><a href="games.php">Games</a></li>
-                                <li><a href="web.php">Web</a></li>
-                                <li><a href="capstone.php">Capstone</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div> <!-- Header Div-->
-	    </div>
-	    
-	    <div id="container">
-	        <div id="content">
+		<!-- Wrap all page content here -->
+		<div id="wrap">	
+			<!-- Fixed Navbar on Top -->
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">christian dehli</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">Contact</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Projects <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#games">Games</a></li>
+									<li><a href="#web">Web</a></li>
+									<li><a href="#capstone">Capstone</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div> <!-- .container -->
+			</div> <!-- navbar -->
+
+			<!-- Page content -->
+			<div class="container">
