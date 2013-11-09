@@ -1,7 +1,7 @@
-<? include('top.php'); ?>
+<?php require 'top.php'; ?>
 
-SKILLS HOLDER
 Spanish Speaker, English Speaker
 Resume file
+Amateur Radio Extra License: AK4ZN
 
-<? include('bottom.php'); ?>
+<?php require 'bottom.php'; ?>

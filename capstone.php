@@ -1,5 +1,5 @@
-<? include('top.php'); ?>
+<?php require 'top.php'; ?>
 
 CAPSTONE HOLDER
 
-<? include('bottom.php'); ?>
+<?php require 'bottom.php'; ?>

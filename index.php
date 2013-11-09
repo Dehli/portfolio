@@ -1,9 +1,9 @@
-<? include('top.php'); ?>
+<?php require 'top.php'; ?>
 
     <div style="width:600px;">
         <img src="images/profile.jpg" title="It's me! :)" alt="Christian Dehli" height="250" width="250"
                 style="float:left;">
-        <p style="text-align:center;padding-top:50px;">
+        <p style="text-align:center;padding-top:55px;margin-left:400px;width: 350px;">
             Hello, I'm Christian Dehli. I love to learn and solve problems using my creativity. 
             This site shows a little bit about myself including some video games and websites
             that I've made. My site would work better if you have JavaScript enabled.
@@ -11,4 +11,4 @@
         </p>
     </div>
     
-<? include('bottom.php'); ?>
+<?php require 'bottom.php'; ?>
