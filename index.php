@@ -1,14 +1,21 @@
 <?php require 'top.php'; ?>
 
-    <div class="page-header">
-        <img src="images/profile.jpg" title="It's me! :)" alt="Christian Dehli" height="200" width="200">
-        <p>
-            Hello, I'm Christian Dehli. I love to learn and solve problems using my creativity. 
-            This site shows a little bit about myself including some video games and websites
-            that I've made. My site would work better if you have JavaScript enabled.
-            It's a work in progress so check back often!
-        </p>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>My name is Christian Paul Dehli. <br> Thanks for visiting my website!</p>
+         
+        <div class="media">
+            <img class="media-object pull-right img-responsive img-thumbnail" src="images/profile.jpg" alt="Christian Dehli">
+        </div>
+        
     </div>
+
+
+
+
+
+</div>
     
 	
 <?php require 'bottom.php'; ?>

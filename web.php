@@ -7,6 +7,8 @@
 </script>
 <script src="http://www.youtube.com/player_api"></script>
 
+<div class="container">
+
 <div>
     <h2>Ad-hoc Reporting Engine</h2>
     <p>
@@ -38,6 +40,8 @@
     <p>
         I created a R&#233;sum&#233; uploader for TrueFit Solutions. The site was built 
     </p>
+</div>
+
 </div>
 
 <?php require 'bottom.php'; ?>

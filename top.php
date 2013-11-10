@@ -9,15 +9,18 @@
 
     <title>Christian Dehli</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    
+    <!-- Optional theme -->
+    <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css"-->
 
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
 
   </head>
 
-	<body>
+  <body>
 		<!-- Wrap all page content here -->
 		<div id="wrap">	
 			<!-- Fixed Navbar on Top -->
@@ -30,20 +33,20 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">christian dehli</a>
+						<a class="navbar-brand" href="index.php">christian dehli</a>
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">Contact</a></li>
+							<li><a href="about.php">About</a></li> <!--class="active"-->
+							<li><a href="contact.php">Contact</a></li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									Projects <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="#games">Games</a></li>
-									<li><a href="#web">Web</a></li>
-									<li><a href="#capstone">Capstone</a></li>
+									<li><a href="games.php">Games</a></li>
+									<li><a href="web.php">Web</a></li>
+									<li><a href="capstone.php">Capstone</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -52,4 +55,3 @@
 			</div> <!-- navbar -->
 
 			<!-- Page content -->
-			<div class="container">

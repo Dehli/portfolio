@@ -1,22 +1,14 @@
 <?php require 'top.php'; ?>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.fbGangnam').fancybox();
+        alert("BOB");
     });
 </script>
 <script src="http://www.youtube.com/player_api"></script>
 
-<!--div style="float:right">
-    <form>
-        <input type="checkbox" id="games">
-        <label for="games">Games</label>
-        
-        <input type="checkbox" id="web">
-        <label for="web">Web</label>
-    </form>
-</div-->
-
+<div class="container">
 
 <div>
     <h2>Luna Racing</h2>
@@ -96,5 +88,6 @@
     <p></p>
 </div-->
 
+</div>
 
 <?php require 'bottom.php'; ?>
