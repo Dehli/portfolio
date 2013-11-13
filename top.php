@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     
     <!-- Optional theme -->
-    <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css"-->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
 
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
@@ -21,6 +21,18 @@
   </head>
 
   <body>
+	<script> <!-- Google Analytics -->
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-45682843-1', 'cdehli.com');
+		ga('send', 'pageview');
+	</script>
+  
+  
+  
 		<!-- Wrap all page content here -->
 		<div id="wrap">	
 			<!-- Fixed Navbar on Top -->
@@ -37,21 +49,19 @@
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="about.php">About</a></li> <!--class="active"-->
-							<li><a href="contact.php">Contact</a></li>
+							<li><a href="about.php">about</a></li> <!--class="active"-->
+							<li><a href="contact.php">contact</a></li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									Projects <span class="caret"></span>
+									projects <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="games.php">Games</a></li>
-									<li><a href="web.php">Web</a></li>
-									<li><a href="capstone.php">Capstone</a></li>
+									<li><a href="games.php">games</a></li>
+									<li><a href="web.php">web</a></li>
+									<li><a href="capstone.php">capstone</a></li>
 								</ul>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div> <!-- .container -->
 			</div> <!-- navbar -->
-
-			<!-- Page content -->
