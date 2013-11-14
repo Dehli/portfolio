@@ -3,7 +3,6 @@
 <div class="container">
 	<p>
         Connect with me!<br>
-        (540) 521-4516<br>
 		<a href="mailto:cdehli@cdehli.com"><img src="images\email.png" alt="Email" height="50" width="50"></a>
         <a href="http://google.com/+ChristianDehli"><img src="images\googlePlus.png" alt="Google+ Logo" height="50" width="50"></a>
         <a href="http://linkedin.com/in/dehli/"><img src="images\linkedIn.png" alt="LinkedIn Logo" height="50" width="50"></a>
