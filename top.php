@@ -48,7 +48,6 @@
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="contact.php">contact</a></li>
                             <li><a href="resume.php">r&eacute;sum&eacute;</a></li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
