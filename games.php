@@ -32,7 +32,8 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<h2>Kasia</h2>
-			<p>I created a 3d game using XNA in which you must fight through several levels defeating enemies. Video will be posted.</p>
+			<p>I created a 3d game using XNA in which you must fight through several levels defeating enemies.</p>
+			<iframe width="420" height="315" src="//www.youtube.com/embed/flS8CAdk82Y?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 
 		<div class="col-lg-6">
