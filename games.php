@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
 		<div class="col-lg-6">
-			<h2>Light Tanks</h2>
+			<h2>Lite Tanks</h2>
 			<p>
 				Created a two player, Tanks meets Tron, video game. You must try to shoot your opponent
 				while laying plasma behind you. You must shoot through your enemy's plasma in order to
@@ -23,9 +23,10 @@
 		<div class="col-lg-6">
 			<h2>Squared</h2>
 			<p>
-				I ported a game originally written for PSP to C# using XNA 4.0 Game Library. 
-				This was done in spring of 2013. Video will be posted.
+				I ported a game originally written for PSP to C# using XNA 4.0 Game Library
+				and further developed the game. This was done in spring of 2013.
 			</p>
+			<iframe width="420" height="315" src="//www.youtube.com/embed/HeJTcqCRtRg?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 	
@@ -66,8 +67,10 @@
 			<h2>Escape from Metropolis</h2>
 			<p>
 				This was my first video game made using the XNA Game Library. You are a stick figure trying
-				to escape from a city. You must shoot your way through boxes or jump over them to reach your freedom. 
-				At the end of each level, you must defeat an enemy helicopter.
+				to escape from a city. The goal is to jump over the crates (or shoot them) and then destroy 
+				the helicopter. Once enough crates have been passed, a helicopter will appear. This 
+				helicopter must be shot down to win the game. The helicopter drops bombs which will hurt 
+				the player unless the player is in the air.
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/HDBqaCh4bmU?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
