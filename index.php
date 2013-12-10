@@ -10,7 +10,7 @@
             <a href="http://koding.com/sippy"><img src="images\koding.png" alt="Koding Logo" height="50" width="50"></a>
         </p>
         <p>
-            Programmer<br>
+            Game Developer<br>
             Fluent in Spanish<br>
             Competitive Swimmer<br>
             Lego Enthusiast
