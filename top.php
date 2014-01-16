@@ -54,7 +54,7 @@
 									projects <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="games.php">games</a></li>
+									<li><a href="games.php">xna games</a></li>
 									<!--li><a href="adhoc.php">web</a></li-->
 									<!--li><a href="capstone.php">capstone</a></li-->
 								</ul>

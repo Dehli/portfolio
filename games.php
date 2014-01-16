@@ -10,6 +10,16 @@
 <div class="container">
     <div class="row">
 		<div class="col-lg-6">
+			<h2>Luna Racing</h2>
+			<p>
+				I created a 3d space racing game using mass based acceleration, basic machine learning, and networking (both XBox Live and System Link). 
+                The competive nature of this game made it a hit for all the players. Some of the powerups could still use tuning, however it provided
+                an overall exhilirating experience. 
+			</p>
+			<iframe width="420" height="315" src="//www.youtube.com/embed/f5lWlA-U7AA?rel=0" frameborder="0" allowfullscreen></iframe>    		
+        </div>
+
+		<div class="col-lg-6">
 			<h2>Lite Tanks</h2>
 			<p>
 				Created a two player, Tanks meets Tron, video game. You must try to shoot your opponent
@@ -19,6 +29,9 @@
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/QMCUYz79WKg?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+    </div>
+               
+    <div class="row">
 
 		<div class="col-lg-6">
 			<h2>Squared</h2>
@@ -28,14 +41,15 @@
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/HeJTcqCRtRg?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>
-	
-	<div class="row">
+
 		<div class="col-lg-6">
 			<h2>Kasia</h2>
 			<p>I created a 3d game using XNA in which you must fight through several levels defeating enemies.</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/flS8CAdk82Y?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+    </div>
+
+    <div class="row">
 
 		<div class="col-lg-6">
 			<h2>Farting Darts</h2>
@@ -47,9 +61,7 @@
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/v2YhwvoBZGQ?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>
 
-	<div class="row">
 		<div class="col-lg-6">
 			<h2>Oppa Ninja Style</h2>
 			<p>
@@ -62,7 +74,9 @@
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/pgSFcWl9NPw?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+    </div>
 
+    <div class="row">
 		<div class="col-lg-6">
 			<h2>Escape from Metropolis</h2>
 			<p>
@@ -74,12 +88,7 @@
 			</p>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/HDBqaCh4bmU?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>
-
-	<!--div>
-		<2>Monopoly</h2>
-		<p></p>
-	</div-->
+	</div>s
 
 </div> <!-- .container -->
 
