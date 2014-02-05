@@ -1,0 +1,2 @@
+QR Code
+Make site look good on mobile
